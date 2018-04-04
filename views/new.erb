@@ -1,0 +1,31 @@
+<h1>Fill this out, punk</h1>
+<form method="post" action="/pirates">
+  <p><label>Pirate Name:</label><br/>
+  <input type="text" name="pirate[name]"></p>
+
+  <p><label>Pirate Height:</label><br/>
+  <input type="text" name="pirate[height]"></p>
+
+  <p><label>Pirate Weight:</label><br/>
+  <input type="text" name="pirate[weight]"></p>
+
+  <p><label>First Ship Name:</label><br/>
+  <input type="text" name="pirate[ships][][name]" placeholder="ship_name_1"></p>
+
+  <p><label>First Ship Type:</label><br/>
+  <input type="text" name="pirate[ships][][type]" placeholder="ship_type_1"></p>
+
+  <p><label>First Ship Booty:</label><br/>
+  <input type="text" name="pirate[ships][][booty]" placeholder="ship_booty_1"></p>
+
+  <p><label>Second Ship Name:</label><br/>
+  <input type="text" name="pirate[ships][][name]" placeholder="ship_name_2"></p>
+
+  <p><label>Second Ship Type:</label><br/>
+  <input type="text" name="pirate[ships][][type]" placeholder="ship_type_2"></p>
+
+  <p><label>Second Ship Booty:</label><br/>
+  <input type="text" name="pirate[ships][][booty]" placeholder="ship_booty_2"></p>
+
+  <input type="submit" value="Submit">
+</form>
